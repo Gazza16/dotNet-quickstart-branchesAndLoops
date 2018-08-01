@@ -67,10 +67,21 @@ namespace BranchesAndLoops
 
         static void Main(string[] args)
         {
-            IfStatements();
+            // IfStatements();
 
-            IfStatementsAndLoops();
+            // IfStatementsAndLoops();
 
+            int i, sum = 0;
+
+            for(i=1; i < 20; i++)
+            {
+              if(i % 3==0)
+              {
+                Console.WriteLine($"{i}");
+                sum+=i;
+              }
+
+            }
 
       }
  }
